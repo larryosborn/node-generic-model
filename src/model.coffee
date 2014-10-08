@@ -8,10 +8,11 @@ class Base
 
     _data: {}
 
-    get: (path) ->
+    get: (path, def) ->
         obj = @_data
         path = path.split '.'
         obj = obj[path.shift()] while obj and path.length
+        return def if typeof obj is 'undefined' and typeof def isnt 'undefined'
         return obj
 
     set: (path, value) ->
