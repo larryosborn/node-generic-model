@@ -1,4 +1,10 @@
+
+isObject = (value) -> {}.toString.call(value) is '[object Object]'
+
 class Base
+
+    constructor: (data) ->
+        @_data = data if data
 
     _data: {}
 
@@ -9,6 +15,9 @@ class Base
         return obj
 
     set: (path, value) ->
+        if isObject path
+            @_data[key] = value for key, value of path
+            return
         path = path.split '.'
         obj = @_data
         while obj and path.length - 1
