@@ -1,0 +1,29 @@
+{
+  "name": "generic-model",
+  "version": "1.0.0",
+  "description": "Vanilla Javascript model",
+  "main": "lib/model.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "Object",
+    "Model"
+  ],
+  "author": "Larry Osborn",
+  "license": "MIT",
+  "homepage": "https://github.com/larryosborn/node-generic-model",
+  "bugs": "https://github.com/larryosborn/node-generic-model/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/larryosborn/node-geric-model.git"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.8",
+    "gulp-coffee": "^2.2.0",
+    "gulp-coffeelint": "^0.4.0",
+    "gulp-jasmine": "^1.0.1",
+    "gulp-notify": "^2.0.0"
+  }
+}
