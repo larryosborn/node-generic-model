@@ -16,7 +16,7 @@
   "bugs": "https://github.com/larryosborn/node-generic-model/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/larryosborn/node-geric-model.git"
+    "url": "git://github.com/larryosborn/node-generic-model.git"
   },
   "devDependencies": {
     "coffee-script": "^1.8.0",
