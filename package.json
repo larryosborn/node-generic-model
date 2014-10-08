@@ -1,6 +1,6 @@
 {
   "name": "generic-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vanilla Javascript model",
   "main": "lib/model.js",
   "scripts": {
